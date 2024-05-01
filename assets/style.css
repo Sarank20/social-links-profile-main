@@ -1,0 +1,33 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: hsl(0, 0%, 100%);
+}
+
+main {
+  background-color: hsl(0, 0%, 12%);
+}
+
+.address{
+    color: hsl(75, 94%, 57%);
+}
+
+li {
+  background-color: hsl(0, 0%, 20%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+footer {
+  position: absolute;
+  bottom: 0;
+}
