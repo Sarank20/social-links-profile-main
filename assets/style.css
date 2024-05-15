@@ -5,18 +5,48 @@ body {
   align-items: center;
   height: 100vh;
   color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
 }
 
 main {
   background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  text-align: center;
+  padding: 46px;
+
+}
+
+.profile-pic{
+  border-radius: 100px;
+  height: 90px;
+  margin-bottom: 15px;
+}
+
+.name{
+  
+  font-size: 1.54rem;
 }
 
 .address{
     color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+    font-size: 0.82rem;
 }
+
+.role{
+  margin-bottom: 20px;
+}
+
+
 
 li {
   background-color: hsl(0, 0%, 20%);
+  margin-bottom: 15px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .attribution {
